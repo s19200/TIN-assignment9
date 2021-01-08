@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+  <script src="/javascripts/func.js"></script>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+
+    <form>
+      <input type="number" id = "left">
+      <input type="number" id = "right">
+      <select id= "operator">
+        <option value="divide"> / </option>
+        <option value="multiply"> * </option>
+        <option value="add"> + </option>
+        <option value="subtract"> - </option>
+      </select>
+
+      <label for="result">RESULT: </label>
+      <input id='result'>
+      <p  id='result'></p>
+
+      <button id="submit" onclick="displayResult(); return false"/>Submit</button>
+      <br>
+
+
+    </form>
+
+
+
+  </body>
+</html>
