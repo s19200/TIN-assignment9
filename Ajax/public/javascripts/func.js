@@ -16,7 +16,6 @@ function result(text){
 }
 
 function displayResult(){
-    result("")
     let request = new XMLHttpRequest();
     let json = formData();
 
